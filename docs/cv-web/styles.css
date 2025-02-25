@@ -1,3 +1,133 @@
-body {
-  font-family: sans-serif;
+/* 1. Define un tamaño de letra al html de 100% y al body de 1rem. */
+html {
+  font-size: 100%;
 }
+
+body {
+  font-size: 1rem;
+}
+
+/* 2. Define para todos los elementos la propiedad box-sizing con el valor de border-box. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 3. Define una familia de fuente de Google Fonts a la etiqueta body. */
+body {
+  font-family: 'Roboto', sans-serif; /* Fuente de Google Fonts */
+}
+
+/* 4. Define un color de letra y un color de fondo a la etiqueta body. */
+body {
+  color: #333; /* Color de letra */
+  background-color: #14a196; /* Color de fondo */
+}
+
+/* 5. Define un color de letra a los enlaces. */
+a {
+  color: #0066cc; /* Color de letra de los enlaces */
+  text-decoration: none;
+}
+
+/* 6. Define un color de letra en el estado hover a los enlaces. */
+a:hover {
+  color: #ff6600; /* Color de letra cuando el enlace está en hover */
+}
+
+/* 7. Aplica la propiedad max-width: 100%; a la etiqueta img para que se vuelvan responsivas. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 8. Crea 3 variables y aplícalas en alguna regla o selector CSS. */
+:root {
+  --color-primario: #f3f3f3;
+  --color-secundario: #001aff;
+  --color-fondo: #0fb670;
+}
+
+header {
+  background-color: var(--color-primario);
+}
+
+h1 {
+  color: var(--color-secundario);
+}
+
+/* 9. Crea 3 selectores de identificador y aplícalos en elementos HTML de tu documento. */
+#inicio {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+#acerca {
+  background-color: #e9ecef;
+  padding: 20px;
+}
+
+#contacto {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* 10. Crea 3 selectores de clases y aplícalas en elementos HTML de tu documento. */
+.foto {
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.proyecto-imagen {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-lista {
+  list-style-type: upper-alpha;
+  padding: 1;
+}
+
+/* 11. Crea 3 selectores descendientes y aplícalos en elementos HTML de tu documento. */
+header ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+#acerca p {
+  line-height: 1.6;
+}
+
+section ul li a {
+  color: inherit;
+}
+
+/* 12. Crea 3 selectores de grupo y aplícalos en elementos HTML de tu documento. */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+p, ul {
+  font-family: 'Roboto', sans-serif;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+/* 13. Estilos generales */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
