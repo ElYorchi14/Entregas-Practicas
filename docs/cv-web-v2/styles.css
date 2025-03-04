@@ -16,7 +16,7 @@ body {
 
 /* 3. Define una familia de fuente de Google Fonts a la etiqueta body. */
 body {
-  font-family: 'Roboto', sans-serif; /* Fuente de Google Fonts */
+  font-family: "Roboto", sans-serif; /* Fuente de Google Fonts */
 }
 
 /* 4. Define un color de letra y un color de fondo a la etiqueta body. */
@@ -104,16 +104,20 @@ section ul li a {
 }
 
 /* 12. Crea 3 selectores de grupo y aplícalos en elementos HTML de tu documento. */
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
-p, ul {
-  font-family: 'Roboto', sans-serif;
+p,
+ul {
+  font-family: "Roboto", sans-serif;
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
 
@@ -129,5 +133,104 @@ footer p {
   margin: 0;
 }
 
+/* Estilos generales */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #14a196;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f3f3f3;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Grid responsivo */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.grid-acerca {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grid-servicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-servicios,
+  .grid-acerca {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-servicios {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.foto {
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.proyecto-imagen {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jorge Palacios CV</title>
+    <title>Jorge Palacios - CV</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="img-cv/cv.png" />
   </head>
@@ -21,101 +21,58 @@
       </nav>
     </header>
 
-    <main>
-      <section id="inicio">
+    <main class="container">
+      <section id="inicio" class="grid">
         <h2>Inicio</h2>
         <p>
           Bienvenido a mi currículum web. Soy Jorge Palacios, estudiante de
-          Desarrollo de Software Interactivo y Videojuegos. Me apasiona la
-          creación de experiencias digitales innovadoras y la programación de
-          videojuegos. A lo largo de mi formación, he adquirido conocimientos en
-          diseño, programación y desarrollo de aplicaciones interactivas.
+          Desarrollo de Software Interactivo y Videojuegos...
         </p>
       </section>
 
-      <section id="acerca">
+      <section id="acerca" class="grid-acerca">
         <h2>Acerca de mí</h2>
-        <img src="img-cv/FB_IMG_1693518947504.jpg" alt="Mi foto" class="foto"/>
-        <p>
-          Hola, mi nombre es Jorge Alberto Palacios Burguete, soy originario de
-          Tuxtla Gutiérrez, Chiapas. Desde temprana edad, he sentido una
-          profunda fascinación por el mundo digital y las infinitas
-          posibilidades creativas que ofrece. Actualmente, curso la carrera de
-          Desarrollo de Software Interactivo y Videojuegos, donde he
-          desarrollado habilidades en programación, diseño y creación de
-          experiencias interactivas. Mi objetivo es combinar creatividad y
-          tecnología para desarrollar proyectos innovadores y atractivos en el
-          ámbito del entretenimiento digital.
-        </p>
+        <img src="img-cv/FB_IMG_1693518947504.jpg" alt="Mi foto" class="foto" />
+        <p>Hola, soy Jorge, estudiante de desarrollo de videojuegos...</p>
       </section>
 
-      <section id="habilidades">
+      <section id="habilidades" class="grid">
         <h2>Habilidades</h2>
         <ul>
-          <li>
-            HTML - Desarrollo de páginas web estáticas y estructuración de
-            contenido.
-          </li>
-          <li>
-            C# - Programación orientada a objetos y desarrollo en entornos de
-            videojuegos.
-          </li>
-          <li>
-            Unity - Creación de videojuegos en 2D y 3D, implementación de
-            mecánicas y optimización.
-          </li>
-          <li>
-            Unreal Engine - Conocimientos básicos en el uso del motor y
-            Blueprints.
-          </li>
+          <li>HTML</li>
+          <li>C#</li>
+          <li>Unity</li>
+          <li>Unreal Engine</li>
         </ul>
       </section>
 
-      <section id="proyectos">
+      <section id="proyectos" class="grid-servicios">
         <h2>Proyectos</h2>
-        <article>
+        <article class="card-servicio">
           <h3>Cubical Defence</h3>
           <img
             src="img-cv/CubicalDefense.png"
             alt="CubicalDefense"
             class="proyecto-imagen"
           />
-          <p>
-            un innovador juego de estrategia tipo Tower Defense con una estética
-            neón futurista. En este desafiante título, los jugadores deben
-            defender su base de implacables oleadas de enemigos representados
-            por círculos brillantes y dinámicos.
-          </p>
+          <p>Un juego de Tower Defense con estética neón futurista...</p>
         </article>
       </section>
 
-      <section id="contacto">
+      <section id="contacto" class="grid">
         <h2>Contacto</h2>
         <p>Email: jorgealberto140101@hotmail.com</p>
         <p>Teléfono: 961 460 7700</p>
-        <p>Redes sociales:</p>
         <ul class="contacto-lista">
-          <li>
-            <a href="https://www.instagram.com/elyorchi14/">Instagram</a>
-          </li>
+          <li><a href="https://www.instagram.com/elyorchi14/">Instagram</a></li>
           <li><a href="https://github.com/ElYorchi14">GitHub</a></li>
           <li><a href="https://elyorchi14.itch.io">Itch.io</a></li>
         </ul>
-        <!--<form>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required />
-          <br />
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" required></textarea>
-          <br />
-          <button type="submit">Enviar</button>
-        </form>-->
       </section>
     </main>
 
     <footer>
       <p>&copy; 2025 Jorge Palacios. Todos los derechos reservados.</p>
     </footer>
-    <script src="main.js"></script>
   </body>
 </html>
