@@ -5,3 +5,4 @@
 3. [Practica 3](https://elyorchi14.github.io/Entregas-Practicas/cv-web/)
 4. [practica 4](https://elyorchi14.github.io/Entregas-Practicas/cv-web/)
 5. [practica 5](https://elyorchi14.github.io/Entregas-Practicas/cv-web-v2/)
+6. [practica-6](https://elyorchi14.github.io/Entregas-Practicas/practica-6/)
