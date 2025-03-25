@@ -1,0 +1,18 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Camiseta de Algodón",
+      "price": 19.99,
+      "description": "Camiseta cómoda de 100% algodón.",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Reloj Deportivo",
+      "price": 39.99,
+      "description": "Reloj con resistencia al agua y diseño moderno.",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+    }
+  ]
+}

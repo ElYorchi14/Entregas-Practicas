@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    <h1>Manejo de datos Asincronos</h1>
-    <h2>AJAX (Fetch API) y json</h2>
-    <h3>Interactuando con la API de GitHub</h3>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Tienda en Línea</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Simulador de Tienda en Línea</h1>
+
+    <section id="productos">
+      <h2>Productos</h2>
+      <div id="lista-productos"></div>
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p>Total: $<span id="total-carrito">0</span></p>
+      <button id="btn-compra">Comprar</button>
+    </section>
+
+    <div id="mensaje-compra" class="hidden">
+      <p>Procesando compra...</p>
+      <div class="loader"></div>
+    </div>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
