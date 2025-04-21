@@ -10,3 +10,4 @@
 8. [practica-8](https://elyorchi14.github.io/Entregas-Practicas/practica-8/index.html)
 9. [practica-9](https://elyorchi14.github.io/Entregas-Practicas/practica-9/index.html)
 10. [practica-10](./tienda-online.md)
+11. [practica-11](./modelado-tienda.md)
